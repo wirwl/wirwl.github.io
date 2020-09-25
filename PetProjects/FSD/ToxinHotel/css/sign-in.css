@@ -1,1 +1,36 @@
-*{box-sizing:border-box;margin:0px;padding:0px}html{color:#1f2041;font-size:14px;font-family:montserrat,Arial,sans-serif}body{margin:0 auto;min-width:320px;background:#fff}.sign-in__main-content{width:100%;min-height:701px;background:url(../images/components/pages/sign-in/sign.jpg) no-repeat;padding-top:172px;background-size:cover}.sign-in__sign-in-form{margin:0 auto;max-width:390px;padding:0 5px}@media(max-width: 515px){.sign-in__main-content{padding-top:30px;min-height:421px}}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #1f2041;
+  font-size: 14px;
+  font-family: montserrat, Arial, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  background: #fff;
+}
+
+.sign-in__main-content {
+  width: 100%;
+  min-height: 701px;
+  background: url(../images/components/pages/sign-in/sign.jpg) no-repeat;
+  padding-top: 172px;
+  background-size: cover;
+}
+.sign-in__sign-in-form {
+  margin: 0 auto;
+  max-width: 390px;
+  padding: 0 5px;
+}
+@media (max-width: 515px) {
+  .sign-in__main-content {
+    padding-top: 30px;
+    min-height: 421px;
+  }
+}
