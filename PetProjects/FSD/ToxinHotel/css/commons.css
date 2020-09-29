@@ -1813,13 +1813,12 @@ body {
   text-decoration: none;
 }
 .button_type_filled {
-  color: #bc9cff;
   background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
   border-radius: 22px;
   color: #fff;
   padding: 15px 20px;
 }
-.button_type_filled.button_header {
+.button_type_filled.button_size_smaller {
   padding: 10px 20px;
   width: 100%;
 }
@@ -1855,7 +1854,7 @@ body {
 .button_type_unfilled.button_disabled::before, .button_type_unfilled.button:hover::before, .button_type_unfilled.button:focus::before {
   background: linear-gradient(180deg, #bc9cff7f 0%, #8ba4f97f 100%);
 }
-.button_type_unfilled.button_header {
+.button_type_unfilled.button_size_smaller {
   padding: 10px 20px;
 }
 .button_type_simple.button_grayed-text {
@@ -1930,7 +1929,7 @@ body {
   width: 20px;
   height: 20px;
   border: 1px solid #bc9cff;
-  background-color: #fff;
+  background: #fff;
   border-radius: 4px;
 }
 .checkbox__text::after {
@@ -2527,11 +2526,6 @@ body {
   display: flex;
   z-index: 20;
 }
-.header__wrapper-main {
-  display: flex;
-  align-items: center;
-  flex-basis: 80.5555555556%;
-}
 .header__logo {
   margin-right: 15px;
   padding-top: 3px;
@@ -2708,12 +2702,12 @@ body {
   align-items: center;
   height: 100%;
 }
-.image-slider input:checked + .image-slider__container .image-slider__slide {
+.image-slider__input:checked + .image-slider__container .image-slider__slide {
   opacity: 1;
   transform: scale(1);
   transition: opacity 1s ease-in-out;
 }
-.image-slider input:checked + .image-slider__container .image-slider__nav .image-slider__label {
+.image-slider__input:checked + .image-slider__container .image-slider__label {
   display: block;
 }
 .image-slider__nav-dots {
@@ -2998,8 +2992,6 @@ body {
 }
 .order-info-form__wrapper-main {
   border: 0 none;
-}
-.order-info-form__wrapper-main {
   max-width: 320px;
 }
 .order-info-form__wrapper-for-room-info-caption {
@@ -3022,7 +3014,6 @@ body {
 }
 .order-info-form__dates-item {
   max-width: 150px;
-  width: 48%;
 }
 .order-info-form__cell-tooltip {
   display: flex;
@@ -3098,7 +3089,6 @@ body {
   display: flex;
 }
 .pagination__item {
-  color: #fff;
   color: rgba(31, 32, 65, 0.5);
   display: flex;
   justify-content: center;
@@ -3413,7 +3403,6 @@ body {
 }
 .room-reservation-form__dates-item {
   max-width: 150px;
-  width: 48%;
 }
 .room-reservation-form__guests-input {
   margin-bottom: 30px;
