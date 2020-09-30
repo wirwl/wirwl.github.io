@@ -2982,95 +2982,7 @@ body {
 .masked-input__input:hover, .masked-input__input:focus {
   border: 1px solid rgba(31, 32, 65, 0.5);
 }
-.order-info-form {
-  max-width: 380px;
-  background: white;
-  padding: 40px 29px 29px;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-}
-.order-info-form__wrapper-main {
-  border: 0 none;
-  max-width: 320px;
-}
-.order-info-form__wrapper-for-room-info-caption {
-  font-size: 1.714286rem;
-  margin-bottom: 17px;
-}
-.order-info-form__item:not(:last-child) {
-  margin-bottom: 19px;
-}
-.order-info-form__list {
-  margin-bottom: 27px;
-}
-.order-info-form__list, .order-info-form__dates-list {
-  list-style: none;
-}
-.order-info-form__dates-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.order-info-form__dates-item {
-  max-width: 150px;
-}
-.order-info-form__cell-tooltip {
-  display: flex;
-  padding-left: 2px;
-}
-.order-info-form__arrival .datepicker-input__input {
-  padding-left: 14px;
-  padding-top: 11px;
-}
-.order-info-form__checkout .datepicker-input__input {
-  padding-left: 11px;
-  padding-top: 11px;
-}
-.order-info-form__table {
-  width: 100%;
-  font-size: 1rem;
-  color: rgba(31, 32, 65, 0.75);
-}
-.order-info-form__row:nth-child(1) .order-info-form__cell-text, .order-info-form__row:nth-child(2) .order-info-form__cell-text {
-  border-bottom: 14px solid transparent;
-}
-.order-info-form__cell-text {
-  width: 214px;
-}
-.order-info-form__cell-value {
-  text-align: end;
-  vertical-align: top;
-  min-width: 60px;
-}
-.order-info-form__total {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 18px;
-  align-items: baseline;
-}
-.order-info-form__total-text, .order-info-form__total-value {
-  font-size: 1.357143rem;
-  font-family: open-sans, Arial, sans-serif;
-  font-weight: bold;
-}
-.order-info-form__total-value {
-  letter-spacing: -0.021429rem;
-}
-.order-info-form__total-text {
-  margin-right: 5px;
-  text-transform: none;
-}
-.order-info-form__total-line {
-  border-bottom: 1px dotted rgba(31, 32, 65, 0.25);
-  margin-right: 5px;
-  flex-grow: 1;
-}
-@media (max-width: 360px) {
-  .order-info-form {
-    padding: 20px 10px 10px;
-  }
-}
+.order-info-form{max-width:380px;background:#fff;padding:40px 29px 29px;border:1px solid rgba(0,0,0,.12);box-shadow:0 0 25px rgba(0,0,0,.2);border-radius:4px}.order-info-form__wrapper-main{border:0 none;max-width:320px}.order-info-form__wrapper-for-room-info-caption{font-size:1.714286rem;margin-bottom:17px}.order-info-form__item:not(:last-child){margin-bottom:19px}.order-info-form__list{margin-bottom:27px}.order-info-form__list,.order-info-form__dates-list{list-style:none}.order-info-form__dates-list{display:flex;justify-content:space-between;flex-wrap:nowrap}.order-info-form__dates-item{max-width:150px}.order-info-form__dates-item:not(:last-child){margin-right:10px}.order-info-form__cell-tooltip{display:flex;padding-left:2px}.order-info-form__arrival .datepicker-input__input{padding-left:14px;padding-top:11px}.order-info-form__checkout .datepicker-input__input{padding-left:11px;padding-top:11px}.order-info-form__table{width:100%;font-size:1rem;color:rgba(31,32,65,.75)}.order-info-form__row:nth-child(1) .order-info-form__cell-text,.order-info-form__row:nth-child(2) .order-info-form__cell-text{border-bottom:14px solid transparent}.order-info-form__cell-text{width:214px}.order-info-form__cell-value{text-align:end;vertical-align:top;min-width:60px}.order-info-form__total{display:flex;justify-content:space-between;margin-bottom:18px;align-items:baseline}.order-info-form__total-text,.order-info-form__total-value{font-size:1.357143rem;font-family:open-sans,Arial,sans-serif;font-weight:bold}.order-info-form__total-value{letter-spacing:-0.021429rem}.order-info-form__total-text{margin-right:5px;text-transform:none}.order-info-form__total-line{border-bottom:1px dotted rgba(31,32,65,.25);margin-right:5px;flex-grow:1}@media(max-width: 360px){.order-info-form{padding:20px 10px 10px}.order-info-form__dates-item{width:48%}}
 .pagination {
   display: inline-flex;
   align-items: center;
@@ -3252,44 +3164,7 @@ body {
 .rate-button_disabled {
   pointer-events: none;
 }
-.room-images {
-  width: 100%;
-  display: flex;
-  height: 33.6805555556vw;
-}
-.room-images__left-wrapper {
-  flex-basis: 68.125%;
-  overflow: hidden;
-  flex-grow: 1;
-}
-.room-images__left-image {
-  min-width: 100%;
-  width: 100%;
-  height: 100%;
-}
-.room-images__right-wrapper {
-  flex-grow: 1;
-  min-height: 100%;
-}
-.room-images__rigth-top-wrapper {
-  height: 50.1030927835%;
-}
-.room-images__rigth-bottom-wrapper {
-  height: 49.8969072165%;
-}
-.room-images__right-top-image, .room-images__right-bottom-image {
-  width: 100%;
-  height: 100%;
-}
-@media (max-width: 918px) {
-  .room-images {
-    display: block;
-    height: auto;
-  }
-  .room-images__left-wrapper, .room-images__right-wrapper {
-    display: none;
-  }
-}
+.room-images{width:100%;display:flex;height:33.6805555556vw}.room-images__left-wrapper{flex-basis:68.125%;overflow:hidden;flex-grow:1}.room-images__left-image{min-width:100%;width:100%;height:100%}.room-images__right-wrapper{flex-grow:1;min-height:100%}.room-images__rigth-top-wrapper,.room-images__rigth-bottom-wrapper{height:50%}.room-images__right-top-image,.room-images__right-bottom-image{width:100%;height:100%}@media(max-width: 918px){.room-images{display:block;height:auto}.room-images__left-wrapper,.room-images__right-wrapper{display:none}}
 .room-info-caption {
   display: flex;
   justify-content: space-between;
@@ -3398,11 +3273,14 @@ body {
 .room-reservation-form__dates-list {
   display: flex;
   list-style: none;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 .room-reservation-form__dates-item {
   max-width: 150px;
+}
+.room-reservation-form__dates-item:not(:last-child) {
+  margin-right: 10px;
 }
 .room-reservation-form__guests-input {
   margin-bottom: 30px;
@@ -3410,6 +3288,9 @@ body {
 @media (max-width: 360px) {
   .room-reservation-form {
     padding: 20px 10px 12px;
+  }
+  .room-reservation-form__dates-item {
+    width: 48%;
   }
   .room-reservation-form__guests-input {
     margin-bottom: 15px;
@@ -3583,12 +3464,15 @@ body {
   font-family: "awesome-5-brands-regular-400";
   font-size: 1.714286rem;
 }
+.social-buttons__item {
+  list-style: none;
+}
+.social-buttons__item:not(:last-child) {
+  margin-right: 23px;
+}
 .social-buttons__button {
   text-decoration: none;
   color: #bc9cff;
-}
-.social-buttons__twitter, .social-buttons__facebook {
-  margin-right: 23px;
 }
 .subscribe-area {
   min-width: 140px;
