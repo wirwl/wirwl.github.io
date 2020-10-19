@@ -21,30 +21,7 @@
 }
 .rangeslider__tip {
   background: green;
-}
-.rangeslider__tip-from {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0px;
-  left: 123px;
-  color: white;
-  padding: 0px 3px;
-  border-radius: 3px;
-  white-space: nowrap;
-}
-.rangeslider__tip-to {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0px;
-  left: 224px;
-  color: white;
-  padding: 0px 3px;
-  border-radius: 3px;
-  white-space: nowrap;
+  cursor: pointer;
 }
 .rangeslider__tip-max {
   display: flex;
@@ -79,6 +56,7 @@
   top: 25px;
   width: 84px;
   height: 4px;
+  pointer-events: none;
 }
 .rangeslider__handle-from {
   cursor: pointer;
@@ -92,6 +70,17 @@
   top: 19px;
   z-index: 11;
 }
+.rangeslider__tip-from {
+  position: absolute;
+  top: -21px;
+  left: 50%;
+  color: white;
+  padding: 0px 3px;
+  border-radius: 3px;
+  white-space: nowrap;
+  text-align: center;
+  transform: translate(-50%);
+}
 .rangeslider__handle-to {
   cursor: pointer;
   border-radius: 50%;
@@ -104,6 +93,16 @@
   top: 19px;
   z-index: 11;
 }
+.rangeslider__tip-to {
+  position: absolute;
+  top: -21px;
+  left: 50%;
+  color: white;
+  padding: 0px 3px;
+  border-radius: 3px;
+  white-space: nowrap;
+  transform: translate(-50%);
+}
 .rangeslider__handle {
   background: green;
 }
@@ -114,7 +113,7 @@
 .rangeslider__handle_isMoving {
   background: green;
   border-color: white;
-  border-width: 1px;
+  z-index: 99;
 }
 .rangeslider__thinline {
   position: absolute;
@@ -147,10 +146,6 @@
   border-bottom-left-radius: 5px;
   left: 0;
 }
-.rangeslider_one-handle .rangeslider__tip-from,
-.rangeslider_one-handle .rangeslider__handle-from {
-  display: none;
-}
 .rangeslider.rangeslider_is-vertical.rangeslider_one-handle .rangeslider__line-selected {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -162,6 +157,12 @@
 .rangeslider.rangeslider_is-vertical .rangeslider__tip-from,
 .rangeslider.rangeslider_is-vertical .rangeslider__tip-to {
   left: 20px;
+}
+.rangeslider.rangeslider_is-vertical .rangeslider__tip-from,
+.rangeslider.rangeslider_is-vertical .rangeslider__tip-to {
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .rangeslider.rangeslider_is-vertical .rangeslider__tip-max {
   bottom: 0px;
