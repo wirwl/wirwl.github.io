@@ -27,12 +27,10 @@ body {
 }
 .cards__column-left, .cards__column-middle {
   width: 380px;
+  margin-right: 40px;
 }
 .cards__column-right {
   width: 320px;
-}
-.cards__column-left, .cards__column-middle {
-  margin-right: 40px;
 }
 .cards__column-left-list, .cards__column-middle-list, .cards__column-right-list {
   list-style: none;

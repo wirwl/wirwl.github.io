@@ -371,8 +371,6 @@ body {
 }
 .room-details__wrapper-comfort-status-list-caption {
   margin-bottom: 19px;
-}
-.room-details__wrapper-comfort-status-list-caption {
   text-transform: none;
 }
 .room-details__donut-chart {

@@ -43,13 +43,6 @@ body {
 .form-elements__column-left-wrapper-for-datepicker-inputs {
   margin-bottom: 38px;
 }
-.form-elements__column-left-datepicker-inputs-list {
-  list-style: none;
-  display: flex;
-}
-.form-elements__column-left-datepicker-inputs-item {
-  width: 150px;
-}
 .form-elements__column-left-wrapper-for-masked-input {
   margin-bottom: 39px;
 }

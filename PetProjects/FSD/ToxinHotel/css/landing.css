@@ -25,9 +25,8 @@ body {
   background-size: cover;
 }
 .landing__form {
-  margin-left: 9.375%;
   max-width: 1160px;
-  margin: 0 auto;
+  margin: 0 auto 0 9.375%;
 }
 .landing__text {
   color: rgba(31, 32, 65, 0.75);

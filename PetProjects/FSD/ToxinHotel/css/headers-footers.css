@@ -66,7 +66,6 @@ body {
   .headers-footers__footer-responsive .footer__footer-top .footer__logo-with-text {
     text-align: center;
     width: auto;
-    margin-right: 0;
     max-width: 560px;
     display: flex;
     justify-content: center;
