@@ -1,1 +1,61 @@
-*{box-sizing:border-box;margin:0;padding:0}html{color:#1f2041;font-size:14px;font-family:montserrat,Arial,sans-serif}body{margin:0 auto;min-width:320px;background:#fff}.landing__main-content{width:100%;min-height:830px;position:relative;padding-top:70px;background:url(../images/components/pages/landing/index.jpg) no-repeat;background-size:cover}.landing__form{max-width:1160px;margin:0 auto 0 9.375%}.landing__text{color:rgba(31,32,65,.75);max-width:297px;position:absolute;right:9.2361111111%;bottom:21px;line-height:1.714286rem;text-align:right}@media(max-width: 1195px){.landing{min-height:740px}.landing__form{max-width:380px;margin-left:auto;margin-right:auto;margin-top:20px;padding:0 5px}.landing__text{margin:10px auto;text-align:center;position:static;color:#fff}.landing__main-content{min-height:495px;padding-top:30px}}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #1f2041;
+  font-size: 14px;
+  font-family: montserrat, arial, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 320px;
+  background: #fff;
+}
+
+.landing__main-content {
+  width: 100%;
+  min-height: 830px;
+  position: relative;
+  padding-top: 70px;
+  background: url(../images/components/pages/landing/index.jpg) no-repeat;
+  background-size: cover;
+}
+.landing__room-reservation-form {
+  max-width: 1160px;
+  margin: 0 auto 0 9.375%;
+}
+.landing__text {
+  color: rgba(31, 32, 65, 0.75);
+  max-width: 297px;
+  position: absolute;
+  right: 9.2361111111%;
+  bottom: 21px;
+  line-height: 1.714286rem;
+  text-align: right;
+}
+@media (max-width: 1195px) {
+  .landing {
+    min-height: 740px;
+  }
+  .landing__room-reservation-form {
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 0 5px;
+  }
+  .landing__text {
+    margin: 10px auto;
+    text-align: center;
+    position: static;
+    color: #fff;
+  }
+  .landing__main-content {
+    min-height: 495px;
+    padding-top: 30px;
+  }
+}
