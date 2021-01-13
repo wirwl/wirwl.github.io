@@ -42,6 +42,7 @@ body {
 }
 .search-room__filters {
   margin-right: 60px;
+  max-width: 266px;
 }
 @media (max-width: 1000px) {
   .search-room__filters {

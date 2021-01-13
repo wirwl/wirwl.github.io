@@ -36,7 +36,7 @@ body {
 .headers-footers .header__header-menu {
   margin-right: 28px;
 }
-.headers-footers .header-menu__item:not(:last-of-type) {
+.headers-footers .header-menu > .header-menu__item:not(:last-of-type) {
   margin-right: 30px;
 }
 .headers-footers .header-menu__item:not(:last-of-type).header-menu__list_arrow {
