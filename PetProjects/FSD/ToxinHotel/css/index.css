@@ -1,0 +1,16 @@
+.index {
+  font-size: 1.428571rem;
+}
+.index__list {
+  list-style: circle;
+}
+.index__list-item {
+  line-height: 2.142857rem;
+}
+.index__list-item-link {
+  text-decoration: none;
+}
+.index__list-item-link:hover {
+  text-decoration: underline;
+  color: black;
+}
